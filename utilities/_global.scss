@@ -1,0 +1,32 @@
+/*-------------------------------------*\
+    GLOBAL
+\*-------------------------------------*/
+
+/**
+ * Global 
+ * 
+ * General site-wide things, currently a bunch of opinionated
+ * defaults that I have, not necesarilly good ones either.
+ * 
+ **
+ * 
+ * 
+ */ 
+
+
+%wrapper {
+    text-align: left;
+    max-width: $max-site-width;
+}
+    .wrapper { @extend %wrapper; }
+
+%scroll-fix {
+    width: 100%;
+    overflow: hidden;
+}
+    .scroll-fix { @extend %scroll-fix; }
+
+%one-line {
+    margin-bottom: 0;
+}
+    .one-line { @extend %scroll-fix; }
