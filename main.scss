@@ -59,8 +59,9 @@
 @import 'bower_components/inuit-box-sizing/generic.box-sizing';
 @import 'bower_components/inuit-page/base.page';
 
-@import 'utilities/global';
 @import 'utilities/alignment';
+@import 'utilities/scroll-fix';
+@import 'utilities/wrapper';
 @import 'bower_components/inuit-widths/trumps.widths';
 @import 'bower_components/inuit-spacing/trumps.spacing';
 

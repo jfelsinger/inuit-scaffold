@@ -12,3 +12,14 @@
  * 
  */ 
  
+
+/**
+ * [Deprecated] Use the inuitcss trumps.spacing module
+ * - github.com/inuitcss/trumps.spacing
+ *
+ * Remove the bottom margin from an element
+ */
+%one-line {
+    margin-bottom: 0;
+}
+    .one-line { @extend %scroll-fix; }
