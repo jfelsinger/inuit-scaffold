@@ -39,6 +39,7 @@
 
 /*---   Clears   ---*/
 
+/** <3 css-101.org/articles/clearfix/latest-new-clearfix-so-far.php */
 @mixin clearfix {
     &:after {
         content: "";
@@ -46,11 +47,11 @@
         clear: both;
     }
 }
+%clear-fix { @include clearfix; }
 
 %clear        { clear: both;   }
 %clear-left   { clear: left;   }
 %clear-right  { clear: left;   }
-%clear-fix { @include clearfix; }
 
 
 
